@@ -1,0 +1,52 @@
+body {
+    background-color: white;
+}
+
+main {
+    margin-top: 100px;;
+}
+
+
+/* Profile Card Mobile */
+
+.mobile-meta {
+    color: blue;
+    font-size: 18px;
+}
+
+/* Media Queries */
+
+/* Bigger breakpoints */
+@media (min-width: 576px) { 
+    
+    #darrin-small {
+        display: none;
+    }
+    #darrin {
+        width: 100%;
+    }
+
+    #hello-darrin {
+        border-radius: 120px;
+        max-width: 200px;
+        margin-top: 20px;
+        margin-left: 20px;
+    }
+ }
+
+/* Smaller breakpoints */
+@media (max-width: 576px) { 
+    
+    #darrin-big {
+        display: none;
+    }
+    #darrin {
+        width: 100%;
+    }
+    #hello-darrin {
+        border-radius: 120px;
+        max-width: 120px;
+    }
+    
+ }
+
