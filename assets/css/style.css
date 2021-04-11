@@ -6,6 +6,19 @@ main {
     margin-top: 100px;;
 }
 
+/* Projects */
+
+.badge {
+    margin-right: 10px;;
+}
+
+.bg-purple {
+    background-color: purple;
+}
+
+.project-link {
+    color: grey;
+}
 
 /* Profile Card Mobile */
 
