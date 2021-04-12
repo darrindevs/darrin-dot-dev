@@ -20,6 +20,10 @@ main {
     color: grey;
 }
 
+.card {
+    border-style: dotted;
+}
+
 /* Profile Card Mobile */
 
 .mobile-meta {
