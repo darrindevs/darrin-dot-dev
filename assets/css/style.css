@@ -1,10 +1,38 @@
 body {
-    background-color: white;
+    background-color: #E7E2DA;
+    /* update font size from 1 to 1.25 rem */
+    font-size: 1.25rem;
+    background-image: url("/assets/images/grass.jpg");
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    opacity: 95%;
+
+}
+
+nav {
+    background-image: url("/assets/images/grass.jpg");
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.navbar-brand {
+    font-size: 1.75rem !important;
 }
 
 main {
     margin-top: 100px;;
 }
+
+a {
+    color: grey;
+}
+
+a:hover {
+    color: forestgreen;
+}
+
 
 /* Projects */
 
@@ -12,22 +40,55 @@ main {
     margin-right: 10px;;
 }
 
-.bg-purple {
-    background-color: purple;
+.bg-warning {
+    /* overwrite BS values */
+    color: black !important;
+}
+
+.bg-secondary {
+    /* overwrite BS values */
+    background-color: forestgreen !important;
+    color: white;
+}
+
+.bg-info {
+    /* overwrite BS values */
+    color: white !important;
+}
+
+.bg-color {
+    background-color: darkred;
 }
 
 .project-link {
-    color: grey;
+    color: black;
+    margin-bottom: 10px;
+}
+
+.project-link:hover {
+    color: forestgreen;
 }
 
 .card {
-    border-style: dotted;
+    border-style:;
+    border-color: forestgreen;
+    border-width: .10rem;
+    background-color: #E7E2DA;
 }
+
+.mark-1 {
+    /*background-color: #7fffd4;*/
+    font-style: italic;
+    font-weight: bold;
+    text-decoration: forestgreen underline;
+}
+
 
 /* Profile Card Mobile */
 
+
 .mobile-meta {
-    color: blue;
+    color: black;
     font-size: 18px;
 }
 
