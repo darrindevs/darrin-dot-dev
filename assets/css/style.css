@@ -2,7 +2,7 @@ body {
     background-color: #E7E2DA;
     /* update font size from 1 to 1.25 rem */
     font-size: 1.25rem;
-    background-image: url("/assets/images/grass.jpg");
+    /*background-image: url("/assets/images/grass.jpg");*/
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
@@ -11,7 +11,7 @@ body {
 }
 
 nav {
-    background-image: url("/assets/images/grass.jpg");
+    background-image: url("https://zno.s3-us-west-1.amazonaws.com/grass.jpg");
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
